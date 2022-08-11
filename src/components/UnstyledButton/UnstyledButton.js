@@ -1,8 +1,9 @@
-import styled from 'styled-components/macro';
+import styled from 'styled-components/macro'
 
 export default styled.button`
   display: ${(props) => props.display || 'block'};
   margin: 0;
+  margin-right: 35px;
   padding: 0;
   border: none;
   background: transparent;
@@ -18,4 +19,4 @@ export default styled.button`
   &:focus:not(:focus-visible) {
     outline: none;
   }
-`;
+`
